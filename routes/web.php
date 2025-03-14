@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\WebsiteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::post('/sendMail', [websiteController::class, 'sendMail'])->name('sendMail');
+Route::get('/{slug}', [websiteController::class, 'articleDetails'])->name('articleDetails');
+
+Route::get('/', [websiteController::class, 'home'])->name('home')->withoutMiddleware(['auth']);

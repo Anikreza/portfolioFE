@@ -65,7 +65,7 @@
                                                 {{--                                                <div style="border-bottom: 5px solid #0a523f;"></div>--}}
                                                 {{--                                                <br/>--}}
                                                 <div class="desc">
-                                                    <h1 style="color: #0f3d0f; letter-spacing: 2px">Hi! <br>I'm Tanvir
+                                                    <h1 style="color: #357e69; letter-spacing: 2px">Hi! <br>I'm Tanvir
                                                         Reza Anik</h1>
                                                     @php
                                                         $birthYear = 1995; // Replace this with the actual birth year from your data
@@ -80,11 +80,18 @@
 
                                                     <h2> Freelance Software Engineer From Bangladesh</h2>
                                                     <div style="display: flex; justify-content: left">
+{{--                                                        <p>--}}
+{{--                                                            <a href="{{asset('assets/Tanvir-CV.pdf')}}"--}}
+{{--                                                               target="_blank"--}}
+{{--                                                               class="btn btn-primary btn-learn">--}}
+{{--                                                                Download CV <i class="icon-download4"></i>--}}
+{{--                                                            </a>--}}
+{{--                                                        </p>      --}}
                                                         <p>
-                                                            <a href="{{asset('assets/Tanvir-CV.pdf')}}"
+                                                            <a href="https://github.com/Anikreza"
                                                                target="_blank"
                                                                class="btn btn-primary btn-learn">
-                                                                Download CV <i class="icon-download4"></i>
+                                                                My GitHub <i class="icon-github"></i>
                                                             </a>
                                                         </p>
                                                         <p>
@@ -96,6 +103,13 @@
                                                             <a class="btn btn-primary btn-learn"
                                                                href="mailto: tanvirrezaanik@gmail.com">
                                                                 Contact Me <i class="icon-mail5"></i>
+                                                            </a>
+                                                        </p>
+                                                        <p>
+                                                            <a class="btn btn-primary btn-learn"
+                                                               href="http://tanventurer.com" target="_blank"
+                                                            >
+                                                                Tanventurer <i class="icon-blogger2"></i>
                                                             </a>
                                                         </p>
                                                     </div>
